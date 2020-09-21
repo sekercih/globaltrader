@@ -1,0 +1,77 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-21T17:25:26.908Z",
+        "line": 4,
+        "name": "Google Test",
+        "description": "",
+        "id": "framework-test;google-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7997000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici google sitesine gider.",
+            "match": {
+              "location": "stepdefinitions.FrameworkTest.kullanici_google_sitesine_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici sitenin titlesini alir.",
+            "match": {
+              "location": "stepdefinitions.FrameworkTest.kullanici_sitenin_titlesini_alir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "site titlesinin Google yazisinin var oldugunu assert eder.",
+            "match": {
+              "location": "stepdefinitions.FrameworkTest.site_titlesinin_Google_yazisinin_var_oldugunu_assert_eder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          },
+          {
+            "name": "@FrameworkTest"
+          }
+        ]
+      }
+    ],
+    "name": "Framework Test",
+    "description": "",
+    "id": "framework-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/framework_test.feature",
+    "tags": [
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
