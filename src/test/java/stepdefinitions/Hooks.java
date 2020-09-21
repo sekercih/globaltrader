@@ -24,7 +24,6 @@ public class Hooks {
 
     @After
     public void tearDown(Scenario scenario) {
-        System.out.println("Hooks Class - tearDown Method");
 
         //screenshot almak icin
         final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
