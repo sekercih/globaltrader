@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.32">
-<testcase classname="Framework Test" name="Google Test" time="8.048">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="38.216">
+<testcase classname="Framework Test" name="Google Test" time="34.262">
 <system-out><![CDATA[Given Kullanici google sitesine gider.......................................passed
 And Kullanici sitenin titlesini alir........................................passed
 Then site titlesinin Google yazisinin var oldugunu assert eder..............passed
