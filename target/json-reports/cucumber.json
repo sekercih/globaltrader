@@ -3,17 +3,28 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-09-21T17:25:26.908Z",
+        "start_timestamp": "2020-09-24T19:57:04.552Z",
         "line": 4,
         "name": "Google Test",
         "description": "",
         "id": "framework-test;google-test",
+        "after": [
+          {
+            "result": {
+              "duration": 951000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7997000000,
+              "duration": 32329000000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 44000000,
+              "duration": 72000000,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 10000000,
               "status": "passed"
             },
             "line": 7,
