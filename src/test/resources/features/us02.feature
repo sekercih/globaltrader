@@ -1,6 +1,6 @@
 Feature: Agent Seller Hesap
 @AgentSellerKayit
-Scenario : TC_0002 Kullanici  gecerli  verilerle Agent Seller hesabi olusturabilmeli
+Scenario: TC_0002 Kullanici  gecerli  verilerle Agent Seller hesabi olusturabilmeli
 Given Kullanici Global Trader anasafasina gider
 And Kullanici Seller Join Now linkine tiklar
 And Kullanici Agent Seller Radio Butonuna Tiklar

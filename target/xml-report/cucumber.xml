@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="38.216">
-<testcase classname="Framework Test" name="Google Test" time="34.262">
-<system-out><![CDATA[Given Kullanici google sitesine gider.......................................passed
-And Kullanici sitenin titlesini alir........................................passed
-Then site titlesinin Google yazisinin var oldugunu assert eder..............passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.868">
+<testcase classname="Agent Seller Hesap" name="TC_0002 Kullanici  gecerli  verilerle Agent Seller hesabi olusturabilmeli" time="25.651">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given Kullanici Global Trader anasafasina gider.............................passed
+And Kullanici Seller Join Now linkine tiklar................................passed
+And Kullanici Agent Seller Radio Butonuna Tiklar............................passed
+And Name check boxa tikla ve doldurur.......................................passed
+And Email check boxa tikla ve doldurur......................................passed
+And Sub domain check boxa tikla ve doldurur.................................passed
+And Mobile phone check boxa tikla ve doldurur...............................passed
+And Country check boxa tikla ve Country secer...............................passed
+And State check boxa tikla ve doldurur......................................passed
+And City check boxa tikla ve doldurur.......................................passed
+And Adres check boxa tikla ve doldurur......................................passed
+And Enter Postal Code check boxa tikla ve doldurur..........................passed
+And Categories check boxa tikla ve Categori secer...........................passed
+And Password check boxa tikla ve doldurur...................................passed
+And Registration Butonuna tiklar............................................passed
+Then Kullanici onay mesaji almali...........................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at stepdefinitions.US_02_StepDefinition.kullanici_onay_mesaji_almali(US_02_StepDefinition.java:93)
+	at ✽.Kullanici onay mesaji almali(file:///C:/Users/pinar/IdeaProjects/globaltrader/src/test/resources/features/us02.feature:19)
+]]></failure>
 </testcase>
 </testsuite>
