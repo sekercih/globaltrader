@@ -1,53 +1,50 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/framework_test.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/test01.feature");
 formatter.feature({
-  "name": "Framework Test",
+  "name": "Seller Join Now sekmesine tiklandiginda Agent Seller buttonu aktif olmalidir",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@smoketest"
+      "name": "@Test01"
     }
   ]
 });
 formatter.scenario({
-  "name": "Google Test",
+  "name": "Kullanici Agent Seller radio butonu tiklanabilmeli",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@smoketest"
-    },
-    {
-      "name": "@FrameworkTest"
+      "name": "@Test01"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici google sitesine gider.",
+  "name": "Kullanici Global Trader sayfasina gider",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.FrameworkTest.kullanici_google_sitesine_gider()"
+  "location": "stepdefinitions.Test01.kullanici_Global_Trader_sayfasina_gider()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici sitenin titlesini alir.",
+  "name": "Kullanici Seller Join Now butonuna tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.FrameworkTest.kullanici_sitenin_titlesini_alir()"
+  "location": "stepdefinitions.Test01.kullanici_Seller_Join_Now_butonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "site titlesinin Google yazisinin var oldugunu assert eder.",
+  "name": "Kullanici Agent Seller radio butonunun tiklanabildigini dogrular",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.FrameworkTest.site_titlesinin_Google_yazisinin_var_oldugunu_assert_eder()"
+  "location": "stepdefinitions.Test01.kullanici_Agent_Seller_radio_butonunun_tiklanabildigini_dogrular()"
 });
 formatter.result({
   "status": "passed"

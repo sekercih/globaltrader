@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="38.216">
-<testcase classname="Framework Test" name="Google Test" time="34.262">
-<system-out><![CDATA[Given Kullanici google sitesine gider.......................................passed
-And Kullanici sitenin titlesini alir........................................passed
-Then site titlesinin Google yazisinin var oldugunu assert eder..............passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.978">
+<testcase classname="Seller Join Now sekmesine tiklandiginda Agent Seller buttonu aktif olmalidir" name="Kullanici Agent Seller radio butonu tiklanabilmeli" time="6.71">
+<system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
+And Kullanici Seller Join Now butonuna tiklar...............................passed
+Then Kullanici Agent Seller radio butonunun tiklanabildigini dogrular.......passed
 ]]></system-out>
 </testcase>
 </testsuite>
