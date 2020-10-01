@@ -5,9 +5,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class CompanySellerJoinPage {
+public class US_03_CompanySellerJoinPage {
 
-    public CompanySellerJoinPage(){
+    public US_03_CompanySellerJoinPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.058">
-<testcase classname="" name="TC_0003 kullanici gecerli verilerle Company Seller hesabi olusturur" time="14.762">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.064">
+<testcase classname="" name="TC_0003 kullanici gecerli verilerle Company Seller hesabi olusturur" time="19.665">
 <system-out><![CDATA[Given kullanici "http://glbtrader.com/" sayfasindadir.......................passed
 And kullanici  Seller Join Now butonuna tiklar..............................passed
 And kullanici Company Seller sekmesine tiklar...............................passed

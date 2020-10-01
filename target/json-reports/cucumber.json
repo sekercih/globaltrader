@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-01T14:57:59.676Z",
+        "start_timestamp": "2020-10-01T19:14:10.600Z",
         "line": 3,
         "name": "TC_0003 kullanici gecerli verilerle Company Seller hesabi olusturur",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 788000000,
+              "duration": 1378000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7136000000,
+              "duration": 9438000000,
               "status": "passed"
             },
             "line": 4,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 1981000000,
+              "duration": 2242000000,
               "status": "passed"
             },
             "line": 5,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 1069000000,
+              "duration": 1151000000,
               "status": "passed"
             },
             "line": 6,
@@ -66,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 187000000,
+              "duration": 362000000,
               "status": "passed"
             },
             "line": 7,
@@ -78,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 84000000,
+              "duration": 221000000,
               "status": "passed"
             },
             "line": 8,
@@ -90,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 104000000,
+              "duration": 173000000,
               "status": "passed"
             },
             "line": 9,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 91000000,
+              "duration": 109000000,
               "status": "passed"
             },
             "line": 10,
@@ -114,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 138000000,
+              "duration": 180000000,
               "status": "passed"
             },
             "line": 11,
@@ -126,7 +126,7 @@
           },
           {
             "result": {
-              "duration": 144000000,
+              "duration": 256000000,
               "status": "passed"
             },
             "line": 12,
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 100000000,
+              "duration": 174000000,
               "status": "passed"
             },
             "line": 13,
@@ -150,7 +150,7 @@
           },
           {
             "result": {
-              "duration": 178000000,
+              "duration": 245000000,
               "status": "passed"
             },
             "line": 14,
@@ -162,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 129000000,
+              "duration": 168000000,
               "status": "passed"
             },
             "line": 15,
@@ -174,7 +174,7 @@
           },
           {
             "result": {
-              "duration": 87000000,
+              "duration": 205000000,
               "status": "passed"
             },
             "line": 16,
@@ -186,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 115000000,
+              "duration": 170000000,
               "status": "passed"
             },
             "line": 17,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 130000000,
+              "duration": 143000000,
               "status": "passed"
             },
             "line": 18,
@@ -210,7 +210,7 @@
           },
           {
             "result": {
-              "duration": 210000000,
+              "duration": 300000000,
               "status": "passed"
             },
             "line": 19,
@@ -222,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 120000000,
+              "duration": 222000000,
               "status": "passed"
             },
             "line": 20,
@@ -234,7 +234,7 @@
           },
           {
             "result": {
-              "duration": 1756000000,
+              "duration": 2256000000,
               "status": "passed"
             },
             "line": 21,
@@ -246,7 +246,7 @@
           },
           {
             "result": {
-              "duration": 31000000,
+              "duration": 91000000,
               "status": "passed"
             },
             "line": 22,

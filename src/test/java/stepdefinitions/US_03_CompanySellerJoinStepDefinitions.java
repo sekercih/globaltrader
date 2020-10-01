@@ -4,13 +4,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
-import pages.CompanySellerJoinPage;
+import pages.US_03_CompanySellerJoinPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class CompanySellerJoinStepDefinitions {
+public class US_03_CompanySellerJoinStepDefinitions {
 
-    CompanySellerJoinPage companySellerJoinPage = new CompanySellerJoinPage();
+    US_03_CompanySellerJoinPage companySellerJoinPage = new US_03_CompanySellerJoinPage();
     @Given("kullanici {string} sayfasindadir")
     public void kullanici_sayfasindadir(String string) {
         Driver.getDriver().get(string);
