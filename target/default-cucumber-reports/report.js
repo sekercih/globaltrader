@@ -1,181 +1,214 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/us02.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/company_seller_join_now.feature");
 formatter.feature({
-  "name": "Agent Seller Hesap",
+  "name": "",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@Company_seller_join"
+    }
+  ]
 });
 formatter.scenario({
-  "name": "TC_0002 Kullanici  gecerli  verilerle Agent Seller hesabi olusturabilmeli",
+  "name": "TC_0003 kullanici gecerli verilerle Company Seller hesabi olusturur",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@AgentSellerKayit"
+      "name": "@Company_seller_join"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici Global Trader anasafasina gider",
+  "name": "kullanici \"http://glbtrader.com/\" sayfasindadir",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.kullanici_Global_Trader_anasafasina_gider()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_sayfasindadir(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Seller Join Now linkine tiklar",
+  "name": "kullanici  Seller Join Now butonuna tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.kullanici_Seller_Join_Now_linkine_tiklar()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Seller_Join_Now_butonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Agent Seller Radio Butonuna Tiklar",
+  "name": "kullanici Company Seller sekmesine tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.kullanici_Agent_Seller_Radio_Butonuna_Tiklar()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Company_Seller_sekmesine_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Name check boxa tikla ve doldurur",
+  "name": "kullanici Company Name girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.name_check_boxa_tikla_ve_doldurur()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Company_Name_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Email check boxa tikla ve doldurur",
+  "name": "kullanici Company Mobile girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.email_check_boxa_tikla_ve_doldurur()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Company_Mobile_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Sub domain check boxa tikla ve doldurur",
+  "name": "kullanici Company Address girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.sub_domain_check_boxa_tikla_ve_doldurur()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Company_Address_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Mobile phone check boxa tikla ve doldurur",
+  "name": "kullanici Name girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.mobile_phone_check_boxa_tikla_ve_doldurur()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Name_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Country check boxa tikla ve Country secer",
+  "name": "kullanici Email girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.country_check_boxa_tikla_ve_Country_secer()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Email_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "State check boxa tikla ve doldurur",
+  "name": "kullanici Sub Domain girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.state_check_boxa_tikla_ve_doldurur()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Sub_Domain_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "City check boxa tikla ve doldurur",
+  "name": "kullanici Mobile Number girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.city_check_boxa_tikla_ve_doldurur()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Mobile_Number_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Adres check boxa tikla ve doldurur",
+  "name": "kullanici Country dropdowndan secer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.adres_check_boxa_tikla_ve_doldurur()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Country_dropdowndan_secer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Enter Postal Code check boxa tikla ve doldurur",
+  "name": "kullanici State girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.enter_Postal_Code_check_boxa_tikla_ve_doldurur()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_State_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Categories check boxa tikla ve Categori secer",
+  "name": "kullanici City girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.categories_check_boxa_tikla_ve_Categori_secer()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_City_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Password check boxa tikla ve doldurur",
+  "name": "kullanici Address girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.password_check_boxa_tikla_ve_doldurur()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Address_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Registration Butonuna tiklar",
+  "name": "kullanici Postal Code girer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.registration_Butonuna_tiklar()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Postal_Code_girer()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici onay mesaji almali",
+  "name": "kullanici Categories dropdowndan secer",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Categories_dropdowndan_secer()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "kullanici Password girer",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Password_girer()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "kullanici Registration butonuna tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_Registration_butonuna_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "kullanici \"Thank you to join our team. You are Registered Successfully.\" masajini gormelidir",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.US_02_StepDefinition.kullanici_onay_mesaji_almali()"
+  "location": "stepdefinitions.CompanySellerJoinStepDefinitions.kullanici_masajini_gormelidir(java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertFalse(Assert.java:65)\r\n\tat org.junit.Assert.assertFalse(Assert.java:75)\r\n\tat stepdefinitions.US_02_StepDefinition.kullanici_onay_mesaji_almali(US_02_StepDefinition.java:93)\r\n\tat ✽.Kullanici onay mesaji almali(file:///C:/Users/pinar/IdeaProjects/globaltrader/src/test/resources/features/us02.feature:19)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
