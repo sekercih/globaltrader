@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-02T22:49:31.310Z",
+        "line": 3,
+        "name": "TC_0001 Kullanici seller olarak Vendor Register Form\u0027una ulasabilmeli ve Agent Seller veya Company Seller olarak secim yapabilmeli.",
+        "description": "",
+        "id": "seller-and-company-seller-i-secebilme;tc-0001-kullanici-seller-olarak-vendor-register-form-una-ulasabilmeli-ve-agent-seller-veya-company-seller-olarak-secim-yapabilmeli.",
+        "after": [
+          {
+            "result": {
+              "duration": 426000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10117000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Kullanici glbTrader ana sayfasindadir",
+            "match": {
+              "location": "stepdefinitions.US_01_Stepdef.kullanici_glbTrader_ana_sayfasindadir()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 774000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanici Seller join linkine tiklar",
+            "match": {
+              "location": "stepdefinitions.US_01_Stepdef.kullanici_Seller_join_linkine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici Vendor Register Form mesajini görmeli",
+            "match": {
+              "location": "stepdefinitions.US_01_Stepdef.kullanici_Vendor_Register_Form_mesajini_görmeli()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kullanici Select Vendor Type mesajini görmeli",
+            "match": {
+              "location": "stepdefinitions.US_01_Stepdef.kullanici_Select_Vendor_Type_mesajini_görmeli()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8487000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Kullanici Agent Seller rodio butonuna veya Company Seller rodio butonuna tiklayabilmeli",
+            "match": {
+              "location": "stepdefinitions.US_01_Stepdef.kullanici_Agent_Seller_rodio_butonuna_veya_Company_Seller_rodio_butonuna_tiklayabilmeli()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@agent_seller"
+          }
+        ]
+      }
+    ],
+    "name": "Seller and Company seller\u0027i secebilme",
+    "description": "",
+    "id": "seller-and-company-seller-i-secebilme",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US_01.feature",
+    "tags": []
+  }
+]

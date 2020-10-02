@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.244"/>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.673">
+<testcase classname="Seller and Company seller'i secebilme" name="TC_0001 Kullanici seller olarak Vendor Register Form'una ulasabilmeli ve Agent Seller veya Company Seller olarak secim yapabilmeli." time="20.06">
+<system-out><![CDATA[Given Kullanici glbTrader ana sayfasindadir.................................passed
+And Kullanici Seller join linkine tiklar....................................passed
+And kullanici Vendor Register Form mesajini görmeli.........................passed
+And Kullanici Select Vendor Type mesajini görmeli...........................passed
+And Kullanici Agent Seller rodio butonuna veya Company Seller rodio butonuna tiklayabilmeli.passed
+]]></system-out>
+</testcase>
+</testsuite>
