@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.868">
-<testcase classname="Agent Seller Hesap" name="TC_0002 Kullanici  gecerli  verilerle Agent Seller hesabi olusturabilmeli" time="25.651">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given Kullanici Global Trader anasafasina gider.............................passed
-And Kullanici Seller Join Now linkine tiklar................................passed
-And Kullanici Agent Seller Radio Butonuna Tiklar............................passed
-And Name check boxa tikla ve doldurur.......................................passed
-And Email check boxa tikla ve doldurur......................................passed
-And Sub domain check boxa tikla ve doldurur.................................passed
-And Mobile phone check boxa tikla ve doldurur...............................passed
-And Country check boxa tikla ve Country secer...............................passed
-And State check boxa tikla ve doldurur......................................passed
-And City check boxa tikla ve doldurur.......................................passed
-And Adres check boxa tikla ve doldurur......................................passed
-And Enter Postal Code check boxa tikla ve doldurur..........................passed
-And Categories check boxa tikla ve Categori secer...........................passed
-And Password check boxa tikla ve doldurur...................................passed
-And Registration Butonuna tiklar............................................passed
-Then Kullanici onay mesaji almali...........................................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertFalse(Assert.java:65)
-	at org.junit.Assert.assertFalse(Assert.java:75)
-	at stepdefinitions.US_02_StepDefinition.kullanici_onay_mesaji_almali(US_02_StepDefinition.java:93)
-	at ✽.Kullanici onay mesaji almali(file:///C:/Users/pinar/IdeaProjects/globaltrader/src/test/resources/features/us02.feature:19)
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.064">
+<testcase classname="" name="TC_0003 kullanici gecerli verilerle Company Seller hesabi olusturur" time="19.665">
+<system-out><![CDATA[Given kullanici "http://glbtrader.com/" sayfasindadir.......................passed
+And kullanici  Seller Join Now butonuna tiklar..............................passed
+And kullanici Company Seller sekmesine tiklar...............................passed
+And kullanici Company Name girer............................................passed
+And kullanici Company Mobile girer..........................................passed
+And kullanici Company Address girer.........................................passed
+And kullanici Name girer....................................................passed
+And kullanici Email girer...................................................passed
+And kullanici Sub Domain girer..............................................passed
+And kullanici Mobile Number girer...........................................passed
+And kullanici Country dropdowndan secer.....................................passed
+And kullanici State girer...................................................passed
+And kullanici City girer....................................................passed
+And kullanici Address girer.................................................passed
+And kullanici Postal Code girer.............................................passed
+And kullanici Categories dropdowndan secer..................................passed
+And kullanici Password girer................................................passed
+And kullanici Registration butonuna tiklar..................................passed
+Then kullanici "Thank you to join our team. You are Registered Successfully." masajini gormelidir.passed
+]]></system-out>
 </testcase>
 </testsuite>
