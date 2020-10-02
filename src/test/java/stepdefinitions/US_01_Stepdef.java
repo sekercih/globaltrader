@@ -10,7 +10,7 @@ public class US_01_Stepdef {
 
     US_01_Glb_HomePage glb_homePage = new US_01_Glb_HomePage();
 
- 
+
 
     @Given("Kullanici glbTrader ana sayfasindadir")
     public void kullanici_glbTrader_ana_sayfasindadir() {

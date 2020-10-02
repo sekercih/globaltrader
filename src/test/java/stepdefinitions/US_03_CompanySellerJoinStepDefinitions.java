@@ -11,6 +11,7 @@ import utilities.Driver;
 public class US_03_CompanySellerJoinStepDefinitions {
 
     US_03_CompanySellerJoinPage companySellerJoinPage = new US_03_CompanySellerJoinPage();
+
     @Given("kullanici {string} sayfasindadir")
     public void kullanici_sayfasindadir(String string) {
         Driver.getDriver().get(string);
