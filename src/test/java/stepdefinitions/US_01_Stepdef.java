@@ -10,7 +10,6 @@ public class US_01_Stepdef {
 
     US_01_Glb_HomePage glb_homePage = new US_01_Glb_HomePage();
 
- 
 
     @Given("Kullanici glbTrader ana sayfasindadir")
     public void kullanici_glbTrader_ana_sayfasindadir() {
@@ -18,8 +17,8 @@ public class US_01_Stepdef {
 
     }
 
-    @Given("Kullanici Seller join linkine tiklar")
-    public void kullanici_Seller_join_linkine_tiklar() {
+    @Given("Kullanici Seller join'a tiklar")
+    public void kullanici_Seller_join_tiklar() {
         glb_homePage.seller_Join_Now.click();
     }
 
@@ -30,6 +29,7 @@ public class US_01_Stepdef {
         System.out.println("kullanici bu mesaji almali : " + vendo_form);
 
     }
+
 
     @Given("Kullanici Select Vendor Type mesajini görmeli")
     public void kullanici_Select_Vendor_Type_mesajini_görmeli() {
@@ -44,15 +44,14 @@ public class US_01_Stepdef {
         glb_homePage.agent_Seller.click();
         boolean agentSecilimi = glb_homePage.agent_Seller.isSelected();
 
-        if (!agentSecilimi){
+        if (!agentSecilimi) {
             glb_homePage.agent_Seller.click();
 
         }
-            Assert.assertTrue(glb_homePage.agent_Seller.isEnabled());
+        Assert.assertTrue(glb_homePage.agent_Seller.isEnabled());
         Thread.sleep(4000);
         glb_homePage.company_vender_type.click();
         boolean companySecilimi = glb_homePage.company_vender_type.isSelected();
-
 
 
         Thread.sleep(4000);
