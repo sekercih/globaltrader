@@ -129,7 +129,7 @@ public class US_05_StepDefinition {
     @Then("kullanici {string} mesajini gormelidir")
     public void kullanici_mesajini_gormelidir(String string) {
 
-        Assert.assertFalse(us05Page.hataMesaji.isDisplayed());
+        Assert.assertTrue(us05Page.hataMesaji.isDisplayed());
     }
 }
 

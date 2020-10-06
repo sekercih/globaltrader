@@ -202,10 +202,8 @@ formatter.match({
   "location": "stepdefinitions.US_05_StepDefinition.kullanici_mesajini_gormelidir(java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertFalse(Assert.java:65)\n\tat org.junit.Assert.assertFalse(Assert.java:75)\n\tat stepdefinitions.US_05_StepDefinition.kullanici_mesajini_gormelidir(US_05_StepDefinition.java:132)\n\tat ✽.kullanici \"Please Enter Valid Email Address.\" mesajini gormelidir(file:///Users/buse/IdeaProjects/globaltrader/src/test/resources/features/US_05.feature:22)\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });
