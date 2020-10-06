@@ -1,64 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="42.51">
-<testcase classname="scenario outline example mail" name="mailkutusu testi" time="27.011">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given https://www.glbtrader.com adresine gidilir............................passed
-And Seller Join Now linki tıklanır..........................................passed
-And Company Seller kutucuğu seçilir.........................................passed
-And E-Mail kutucuğuna "" datası gönderilir..................................passed
-And Registration tuşuna basılır.............................................passed
-Then "Please Enter Valid Email Address" mesajının görüntülenip görüntülenmediğini Assert edilir.failed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="89.319">
+<testcase classname="Company Seller Gecersiz email" name="TC_0005 kullanici  Company Seller olarak email texteboxinda gecersiz  email ile kayit olmamalidir." time="87.621">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given kullanici "http://glbtrader.com/" sayfasindadir.......................passed
+And kullanici  Seller Join Now butonuna tiklar..............................passed
+And kullanici Company Seller sekmesine tiklar...............................passed
+And kullanici Gecerli Company  Name girer...................................passed
+And kullanici Gecerli Company  Mobile girer.................................passed
+And kullanici Gecerli  Company  Address girer...............................passed
+And kullanici Gecerli Name girer............................................passed
+And kullanici Hatali Email girer............................................passed
+And kullanici Gecerli Sub Domain girer......................................passed
+And kullanici Gecerli Mobile Number girer...................................passed
+And kullanici Gecerli Country dropdowndan secer.............................passed
+And kullanici Gecerli State girer...........................................passed
+And kullanici Gecerli City girer............................................passed
+And kullanici Gecerli Address girer.........................................passed
+And kullanici Gecerli Postal Code girer.....................................passed
+And kullanici Gecerli Categories dropdowndan secer..........................passed
+And kullanici Gecerli Password girer........................................passed
+And kullanici Registration butonuna tiklar..................................passed
+Then kullanici "Please Enter Valid Email Address." mesajini gormelidir......failed
 
 StackTrace:
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepdefinitions.US_04_StepDefination.mesajının_görüntülenip_görüntülenmediğini_Assert_edilir(US_04_StepDefination.java:41)
-	at ✽."Please Enter Valid Email Address" mesajının görüntülenip görüntülenmediğini Assert edilir(file:///C:/Users/Hans/IdeaProjects/globaltrader/src/test/resources/features/us_04.feature:9)
-]]></failure>
-</testcase>
-<testcase classname="scenario outline example mail" name="mailkutusu testi 2" time="3.958">
-<system-out><![CDATA[Given https://www.glbtrader.com adresine gidilir............................passed
-And Seller Join Now linki tıklanır..........................................passed
-And Company Seller kutucuğu seçilir.........................................passed
-And E-Mail kutucuğuna "ali55gmail.com" datası gönderilir....................passed
-And Registration tuşuna basılır.............................................passed
-Then "Please Enter Valid Email Address" mesajının görüntülenip görüntülenmediğini Assert edilir.passed
-]]></system-out>
-</testcase>
-<testcase classname="scenario outline example mail" name="mailkutusu testi 3" time="3.93">
-<system-out><![CDATA[Given https://www.glbtrader.com adresine gidilir............................passed
-And Seller Join Now linki tıklanır..........................................passed
-And Company Seller kutucuğu seçilir.........................................passed
-And E-Mail kutucuğuna "ali55 @gmail.com" datası gönderilir..................passed
-And Registration tuşuna basılır.............................................passed
-Then "Please Enter Valid Email Address" mesajının görüntülenip görüntülenmediğini Assert edilir.passed
-]]></system-out>
-</testcase>
-<testcase classname="scenario outline example mail" name="mailkutusu testi 4" time="3.126">
-<system-out><![CDATA[Given https://www.glbtrader.com adresine gidilir............................passed
-And Seller Join Now linki tıklanır..........................................passed
-And Company Seller kutucuğu seçilir.........................................passed
-And E-Mail kutucuğuna "ali55@gmailcom" datası gönderilir....................passed
-And Registration tuşuna basılır.............................................passed
-Then "Please Enter Valid Email Address" mesajının görüntülenip görüntülenmediğini Assert edilir.passed
-]]></system-out>
-</testcase>
-<testcase classname="scenario outline example mail" name="mailkutusu testi 5" time="3.189">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given https://www.glbtrader.com adresine gidilir............................passed
-And Seller Join Now linki tıklanır..........................................passed
-And Company Seller kutucuğu seçilir.........................................passed
-And E-Mail kutucuğuna "ali55@gmail.com" datası gönderilir...................passed
-And Registration tuşuna basılır.............................................passed
-Then "Please Enter Valid Email Address" mesajının görüntülenip görüntülenmediğini Assert edilir.failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepdefinitions.US_04_StepDefination.mesajının_görüntülenip_görüntülenmediğini_Assert_edilir(US_04_StepDefination.java:41)
-	at ✽."Please Enter Valid Email Address" mesajının görüntülenip görüntülenmediğini Assert edilir(file:///C:/Users/Hans/IdeaProjects/globaltrader/src/test/resources/features/us_04.feature:9)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at stepdefinitions.US_05_StepDefinition.kullanici_mesajini_gormelidir(US_05_StepDefinition.java:132)
+	at ✽.kullanici "Please Enter Valid Email Address." mesajini gormelidir(file:///Users/buse/IdeaProjects/globaltrader/src/test/resources/features/US_05.feature:22)
 ]]></failure>
 </testcase>
 </testsuite>
