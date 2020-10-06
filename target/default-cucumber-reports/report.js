@@ -1,69 +1,452 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/US_01.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/us_04.feature");
 formatter.feature({
-  "name": "Seller and Company seller\u0027i secebilme",
+  "name": "scenario outline example mail",
   "description": "",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "name": "TC_0001 Kullanici seller olarak Vendor Register Form\u0027una ulasabilmeli ve Agent Seller veya Company Seller olarak secim yapabilmeli.",
-  "description": "",
-  "keyword": "Scenario",
+  "keyword": "Feature",
   "tags": [
     {
-      "name": "@agent_seller"
+      "name": "@mailKontrol"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "name": "mailkutusu testi",
+  "description": "",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "name": "https://www.glbtrader.com adresine gidilir",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "Seller Join Now linki tıklanır",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Company Seller kutucuğu seçilir",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "E-Mail kutucuğuna \"\u003cmail\u003e\" datası gönderilir",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Registration tuşuna basılır",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "\"\u003cmesaj\u003e\" mesajının görüntülenip görüntülenmediğini Assert edilir",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "Test data for data tables",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "mail",
+        "mesaj"
+      ]
+    },
+    {
+      "cells": [
+        "",
+        "Please Enter Valid Email Address"
+      ]
+    },
+    {
+      "cells": [
+        "ali55gmail.com",
+        "Please Enter Valid Email Address"
+      ]
+    },
+    {
+      "cells": [
+        "ali55 @gmail.com",
+        "Please Enter Valid Email Address"
+      ]
+    },
+    {
+      "cells": [
+        "ali55@gmailcom",
+        "Please Enter Valid Email Address"
+      ]
+    },
+    {
+      "cells": [
+        "ali55@gmail.com",
+        "Please Enter Valid Email Address"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "mailkutusu testi",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@mailKontrol"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici glbTrader ana sayfasindadir",
+  "name": "https://www.glbtrader.com adresine gidilir",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.US_01_Stepdef.kullanici_glbTrader_ana_sayfasindadir()"
+  "location": "stepdefinitions.US_04_StepDefination.https_www_glbtrader_com_adresine_gidilir()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Seller join linkine tiklar",
+  "name": "Seller Join Now linki tıklanır",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_01_Stepdef.kullanici_Seller_join_linkine_tiklar()"
+  "location": "stepdefinitions.US_04_StepDefination.seller_Join_Now_linki_tıklanır()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "kullanici Vendor Register Form mesajini görmeli",
+  "name": "Company Seller kutucuğu seçilir",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_01_Stepdef.kullanici_Vendor_Register_Form_mesajini_görmeli()"
+  "location": "stepdefinitions.US_04_StepDefination.company_Seller_kutucuğu_seçilir()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Select Vendor Type mesajini görmeli",
+  "name": "E-Mail kutucuğuna \"\" datası gönderilir",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_01_Stepdef.kullanici_Select_Vendor_Type_mesajini_görmeli()"
+  "location": "stepdefinitions.US_04_StepDefination.e_Mail_kutucuğuna_datası_gönderilir(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Agent Seller rodio butonuna veya Company Seller rodio butonuna tiklayabilmeli",
+  "name": "Registration tuşuna basılır",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_01_Stepdef.kullanici_Agent_Seller_rodio_butonuna_veya_Company_Seller_rodio_butonuna_tiklayabilmeli()"
+  "location": "stepdefinitions.US_04_StepDefination.registration_tuşuna_basılır()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.step({
+  "name": "\"Please Enter Valid Email Address\" mesajının görüntülenip görüntülenmediğini Assert edilir",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.mesajının_görüntülenip_görüntülenmediğini_Assert_edilir(java.lang.String)"
+});
+formatter.result({
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepdefinitions.US_04_StepDefination.mesajının_görüntülenip_görüntülenmediğini_Assert_edilir(US_04_StepDefination.java:41)\r\n\tat ✽.\"Please Enter Valid Email Address\" mesajının görüntülenip görüntülenmediğini Assert edilir(file:///C:/Users/Hans/IdeaProjects/globaltrader/src/test/resources/features/us_04.feature:9)\r\n",
+  "status": "failed"
+});
+formatter.embedding("image/png", "embedded0.png", null);
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "mailkutusu testi",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@mailKontrol"
+    }
+  ]
+});
+formatter.step({
+  "name": "https://www.glbtrader.com adresine gidilir",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.https_www_glbtrader_com_adresine_gidilir()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Seller Join Now linki tıklanır",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.seller_Join_Now_linki_tıklanır()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Company Seller kutucuğu seçilir",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.company_Seller_kutucuğu_seçilir()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "E-Mail kutucuğuna \"ali55gmail.com\" datası gönderilir",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.e_Mail_kutucuğuna_datası_gönderilir(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Registration tuşuna basılır",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.registration_tuşuna_basılır()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Please Enter Valid Email Address\" mesajının görüntülenip görüntülenmediğini Assert edilir",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.mesajının_görüntülenip_görüntülenmediğini_Assert_edilir(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "mailkutusu testi",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@mailKontrol"
+    }
+  ]
+});
+formatter.step({
+  "name": "https://www.glbtrader.com adresine gidilir",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.https_www_glbtrader_com_adresine_gidilir()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Seller Join Now linki tıklanır",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.seller_Join_Now_linki_tıklanır()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Company Seller kutucuğu seçilir",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.company_Seller_kutucuğu_seçilir()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "E-Mail kutucuğuna \"ali55 @gmail.com\" datası gönderilir",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.e_Mail_kutucuğuna_datası_gönderilir(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Registration tuşuna basılır",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.registration_tuşuna_basılır()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Please Enter Valid Email Address\" mesajının görüntülenip görüntülenmediğini Assert edilir",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.mesajının_görüntülenip_görüntülenmediğini_Assert_edilir(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "mailkutusu testi",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@mailKontrol"
+    }
+  ]
+});
+formatter.step({
+  "name": "https://www.glbtrader.com adresine gidilir",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.https_www_glbtrader_com_adresine_gidilir()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Seller Join Now linki tıklanır",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.seller_Join_Now_linki_tıklanır()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Company Seller kutucuğu seçilir",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.company_Seller_kutucuğu_seçilir()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "E-Mail kutucuğuna \"ali55@gmailcom\" datası gönderilir",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.e_Mail_kutucuğuna_datası_gönderilir(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Registration tuşuna basılır",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.registration_tuşuna_basılır()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Please Enter Valid Email Address\" mesajının görüntülenip görüntülenmediğini Assert edilir",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.mesajının_görüntülenip_görüntülenmediğini_Assert_edilir(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "mailkutusu testi",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@mailKontrol"
+    }
+  ]
+});
+formatter.step({
+  "name": "https://www.glbtrader.com adresine gidilir",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.https_www_glbtrader_com_adresine_gidilir()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Seller Join Now linki tıklanır",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.seller_Join_Now_linki_tıklanır()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Company Seller kutucuğu seçilir",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.company_Seller_kutucuğu_seçilir()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "E-Mail kutucuğuna \"ali55@gmail.com\" datası gönderilir",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.e_Mail_kutucuğuna_datası_gönderilir(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Registration tuşuna basılır",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.registration_tuşuna_basılır()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"Please Enter Valid Email Address\" mesajının görüntülenip görüntülenmediğini Assert edilir",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinitions.US_04_StepDefination.mesajının_görüntülenip_görüntülenmediğini_Assert_edilir(java.lang.String)"
+});
+formatter.result({
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepdefinitions.US_04_StepDefination.mesajının_görüntülenip_görüntülenmediğini_Assert_edilir(US_04_StepDefination.java:41)\r\n\tat ✽.\"Please Enter Valid Email Address\" mesajının görüntülenip görüntülenmediğini Assert edilir(file:///C:/Users/Hans/IdeaProjects/globaltrader/src/test/resources/features/us_04.feature:9)\r\n",
+  "status": "failed"
+});
+formatter.embedding("image/png", "embedded1.png", null);
 formatter.after({
   "status": "passed"
 });
