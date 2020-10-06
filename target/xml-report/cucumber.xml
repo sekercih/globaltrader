@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="89.319">
-<testcase classname="Company Seller Gecersiz email" name="TC_0005 kullanici  Company Seller olarak email texteboxinda gecersiz  email ile kayit olmamalidir." time="87.621">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given kullanici "http://glbtrader.com/" sayfasindadir.......................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.195">
+<testcase classname="Company Seller Gecersiz email" name="TC_0005 kullanici  Company Seller olarak email texteboxinda gecersiz  email ile kayit olmamalidir." time="18.772">
+<system-out><![CDATA[Given kullanici "http://glbtrader.com/" sayfasindadir.......................passed
 And kullanici  Seller Join Now butonuna tiklar..............................passed
 And kullanici Company Seller sekmesine tiklar...............................passed
 And kullanici Gecerli Company  Name girer...................................passed
@@ -19,16 +19,7 @@ And kullanici Gecerli Postal Code girer.....................................pass
 And kullanici Gecerli Categories dropdowndan secer..........................passed
 And kullanici Gecerli Password girer........................................passed
 And kullanici Registration butonuna tiklar..................................passed
-Then kullanici "Please Enter Valid Email Address." mesajini gormelidir......failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertFalse(Assert.java:65)
-	at org.junit.Assert.assertFalse(Assert.java:75)
-	at stepdefinitions.US_05_StepDefinition.kullanici_mesajini_gormelidir(US_05_StepDefinition.java:132)
-	at ✽.kullanici "Please Enter Valid Email Address." mesajini gormelidir(file:///Users/buse/IdeaProjects/globaltrader/src/test/resources/features/US_05.feature:22)
-]]></failure>
+Then kullanici "Please Enter Valid Email Address." mesajini gormelidir......passed
+]]></system-out>
 </testcase>
 </testsuite>
