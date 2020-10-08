@@ -3,15 +3,15 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-08T19:48:39.439Z",
+        "start_timestamp": "2020-10-08T20:31:14.832Z",
         "line": 4,
-        "name": "TC01 Kullanici Agent Seller radio butonu tiklanabilmeli",
+        "name": "TC_12 Glbtrader anasayfa ulasilabilir olmali",
         "description": "",
-        "id": "us-09-all-categories-kontrolü;tc01-kullanici-agent-seller-radio-butonu-tiklanabilmeli",
+        "id": "us-08-test-cases;tc-12-glbtrader-anasayfa-ulasilabilir-olmali",
         "after": [
           {
             "result": {
-              "duration": 612000000,
+              "duration": 504000000,
               "status": "passed"
             },
             "match": {
@@ -24,60 +24,48 @@
         "steps": [
           {
             "result": {
-              "duration": 21150000000,
+              "duration": 11000000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "Kullanici Global Trader sayfasina gider",
+            "name": "Kullanici glbtrader anasayfasina gider",
             "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_gider()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1173000000,
+              "duration": 111000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "Kullanici Seller Join Now butonuna tiklar",
+            "name": "Kullanici glbtrader anasayfasina ulasildigini dogrular",
             "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 56000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Kullanici Agent Seller radio butonunun tiklanabildigini dogrular",
-            "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_radio_butonunun_tiklanabildigini_dogrular()"
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_ulasildigini_dogrular()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US009"
+            "name": "@US_08"
           },
           {
-            "name": "@Test01"
+            "name": "@TC_12"
           }
         ]
       },
       {
-        "start_timestamp": "2020-10-08T19:49:02.618Z",
-        "line": 10,
-        "name": "TC02 Categori listeleri birbiri ile ayni olmaldir",
+        "start_timestamp": "2020-10-08T20:31:26.677Z",
+        "line": 9,
+        "name": "TC_13 emailbox ulasilabilir olmalidir",
         "description": "",
-        "id": "us-09-all-categories-kontrolü;tc02-categori-listeleri-birbiri-ile-ayni-olmaldir",
+        "id": "us-08-test-cases;tc-13-emailbox-ulasilabilir-olmalidir",
         "after": [
           {
             "result": {
-              "duration": 540000000,
+              "duration": 614000000,
               "status": "passed"
             },
             "match": {
@@ -90,72 +78,60 @@
         "steps": [
           {
             "result": {
-              "duration": 2063000000,
+              "duration": 1305000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Kullanici glbtrader anasayfasina girder",
+            "match": {
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_girder()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 824000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "Kullanici Global Trader sayfasina gider",
+            "name": "Kullanici Signin butonuna tiklar",
             "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_Signin_butonuna_tiklar()"
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1109000000,
+              "duration": 38000000,
               "status": "passed"
             },
             "line": 12,
-            "name": "Kullanici Seller Join Now butonuna tiklar",
+            "name": "Kullanici emailbox\u0027a ulasilabilir oldugunu dogrular",
             "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 304000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Kullanici Agent Seller butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3772000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Kullanici kayit formundaki Categori Listesi ila ana sayfadaki Categori Listesinin ayni oldugunu dogrular",
-            "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_kayit_formundaki_Categori_Listesi_ila_ana_sayfadaki_Categori_Listesinin_ayni_oldugunu_dogrular()"
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_emailbox_a_ulasilabilir_oldugunu_dogrular()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US009"
+            "name": "@US_08"
           },
           {
-            "name": "@Test02"
+            "name": "@TC_13"
           }
         ]
       },
       {
-        "start_timestamp": "2020-10-08T19:49:10.440Z",
-        "line": 17,
-        "name": "TC03 Kullanici Company Seller radio butonu tiklanabilmeli",
+        "start_timestamp": "2020-10-08T20:31:29.479Z",
+        "line": 15,
+        "name": "TC_14 password box ulasilabilir olmalidir",
         "description": "",
-        "id": "us-09-all-categories-kontrolü;tc03-kullanici-company-seller-radio-butonu-tiklanabilmeli",
+        "id": "us-08-test-cases;tc-14-password-box-ulasilabilir-olmalidir",
         "after": [
           {
             "result": {
-              "duration": 623000000,
+              "duration": 630000000,
               "status": "passed"
             },
             "match": {
@@ -168,60 +144,60 @@
         "steps": [
           {
             "result": {
-              "duration": 1303000000,
+              "duration": 1232000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Kullanici glbtrader anasayfasina gider",
+            "match": {
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 593000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Kullanici sign in butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_sign_in_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48000000,
               "status": "passed"
             },
             "line": 18,
-            "name": "Kullanici Global Trader sayfasina gider",
+            "name": "Kullanici password box\u0027a ulasilabilir oldugunu dogrular",
             "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 885000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Kullanici Seller Join Now butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 47000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "Kullanici Company Seller radio butonunun tiklanabildigini dogrular",
-            "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Company_Seller_radio_butonunun_tiklanabildigini_dogrular()"
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_password_box_a_ulasilabilir_oldugunu_dogrular()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US009"
+            "name": "@US_08"
           },
           {
-            "name": "@Test03"
+            "name": "@TC_14"
           }
         ]
       },
       {
-        "start_timestamp": "2020-10-08T19:49:13.311Z",
-        "line": 23,
-        "name": "TC04 Categori listeleri birbiri ile ayni olmaldir",
+        "start_timestamp": "2020-10-08T20:31:31.993Z",
+        "line": 21,
+        "name": "TC_15 login butonu calisiyor olmalidir",
         "description": "",
-        "id": "us-09-all-categories-kontrolü;tc04-categori-listeleri-birbiri-ile-ayni-olmaldir",
+        "id": "us-08-test-cases;tc-15-login-butonu-calisiyor-olmalidir",
         "after": [
           {
             "result": {
-              "duration": 521000000,
+              "duration": 571000000,
               "status": "passed"
             },
             "match": {
@@ -234,71 +210,185 @@
         "steps": [
           {
             "result": {
-              "duration": 1261000000,
+              "duration": 1232000000,
               "status": "passed"
             },
-            "line": 24,
-            "name": "Kullanici Global Trader sayfasina gider",
+            "line": 22,
+            "name": "Kullanici glbtrader anasayfasina gider",
             "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_gider()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 963000000,
+              "duration": 591000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Kullanici sign in butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_sign_in_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Kullanici login sayfasina ulasir",
+            "match": {
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_login_sayfasina_ulasir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114000000,
               "status": "passed"
             },
             "line": 25,
-            "name": "Kullanici Seller Join Now butonuna tiklar",
+            "name": "Kullanici mail girer",
             "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_mail_girer()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 318000000,
+              "duration": 99000000,
               "status": "passed"
             },
             "line": 26,
-            "name": "Kullanici Agent Seller butonuna tiklar",
+            "name": "Kullanici password girer",
             "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_butonuna_tiklar()"
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_password_girer()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4039000000,
+              "duration": 452000000,
               "status": "passed"
             },
             "line": 27,
-            "name": "Kullanici kayit formundaki Categori Listesi ila ana sayfadaki Categori Listesinin ayni oldugunu dogrular",
+            "name": "Kullanici login butonuna tiklar",
             "match": {
-              "location": "stepdefinitions.US_09_StepDefinition.kullanici_kayit_formundaki_Categori_Listesi_ila_ana_sayfadaki_Categori_Listesinin_ayni_oldugunu_dogrular()"
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_login_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Kullanici login butonun calistigini dogrular",
+            "match": {
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_login_butonun_calistigini_dogrular()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@US009"
+            "name": "@US_08"
           },
           {
-            "name": "@Test04"
+            "name": "@TC_15"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-08T20:31:35.096Z",
+        "line": 31,
+        "name": "TC_16 Forgot Form sayfasina ulsilabilir olmalidir",
+        "description": "",
+        "id": "us-08-test-cases;tc-16-forgot-form-sayfasina-ulsilabilir-olmalidir",
+        "after": [
+          {
+            "result": {
+              "duration": 541000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 867000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Kullanici glbtrader anasayfasina gider",
+            "match": {
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 563000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Kullanici sign in butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_sign_in_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 429000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Kullanici Forgot Password buttonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_Forgot_Password_buttonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Kullanici Forgot Form sayfasina ulastigini dogrular",
+            "match": {
+              "location": "stepdefinitions.US_08_StepDefinitions.kullanici_Forgot_Form_sayfasina_ulastigini_dogrular()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US_08"
+          },
+          {
+            "name": "@TC_16"
           }
         ]
       }
     ],
-    "name": "US 09 All Categories kontrolü",
+    "name": "US_08 Test Cases",
     "description": "",
-    "id": "us-09-all-categories-kontrolü",
+    "id": "us-08-test-cases",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/us_09.feature",
+    "uri": "file:src/test/resources/features/us_08.feature",
     "tags": [
       {
-        "name": "@US009",
+        "name": "@US_08",
         "type": "Tag",
         "location": {
           "line": 1,
