@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="42.969">
-<testcase classname="US 09 All Categories kontrolü" name="TC01 Kullanici Agent Seller radio butonu tiklanabilmeli" time="8.397">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="31.201">
+<testcase classname="US 09 All Categories kontrolü" name="TC01 Kullanici Agent Seller radio butonu tiklanabilmeli" time="18.148">
 <system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
 And Kullanici Seller Join Now butonuna tiklar...............................passed
 Then Kullanici Agent Seller radio butonunun tiklanabildigini dogrular.......passed
 ]]></system-out>
 </testcase>
-<testcase classname="US 09 All Categories kontrolü" name="TC02 Categori listeleri birbiri ile ayni olmaldir" time="26.03">
+<testcase classname="US 09 All Categories kontrolü" name="TC02 Categori listeleri birbiri ile ayni olmaldir" time="4.264">
 <system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
 And Kullanici Seller Join Now butonuna tiklar...............................passed
 And Kullanici Agent Seller butonuna tiklar..................................passed
 Then Kullanici kayit formundaki Categori Listesi ila ana sayfadaki Categori Listesinin ayni oldugunu dogrular.passed
 ]]></system-out>
 </testcase>
-<testcase classname="US 09 All Categories kontrolü" name="TC03 Kullanici Company Seller radio butonu tiklanabilmeli" time="2.355">
+<testcase classname="US 09 All Categories kontrolü" name="TC03 Kullanici Company Seller radio butonu tiklanabilmeli" time="2.587">
 <system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
 And Kullanici Seller Join Now butonuna tiklar...............................passed
 Then Kullanici Company Seller radio butonunun tiklanabildigini dogrular.....passed
 ]]></system-out>
 </testcase>
-<testcase classname="US 09 All Categories kontrolü" name="TC04 Categori listeleri birbiri ile ayni olmaldir" time="5.954">
+<testcase classname="US 09 All Categories kontrolü" name="TC04 Categori listeleri birbiri ile ayni olmaldir" time="5.856">
 <system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
 And Kullanici Seller Join Now butonuna tiklar...............................passed
 And Kullanici Agent Seller butonuna tiklar..................................passed

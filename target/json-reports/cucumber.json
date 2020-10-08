@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-08T19:30:22.020Z",
+        "start_timestamp": "2020-10-08T19:41:08.108Z",
         "line": 4,
         "name": "TC01 Kullanici Agent Seller radio butonu tiklanabilmeli",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 492000000,
+              "duration": 1144000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6976000000,
+              "duration": 16132000000,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 738000000,
+              "duration": 680000000,
               "status": "passed"
             },
             "line": 6,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 40000000,
+              "duration": 28000000,
               "status": "passed"
             },
             "line": 7,
@@ -69,7 +69,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-08T19:30:30.426Z",
+        "start_timestamp": "2020-10-08T19:41:26.284Z",
         "line": 10,
         "name": "TC02 Categori listeleri birbiri ile ayni olmaldir",
         "description": "",
@@ -77,7 +77,7 @@
         "after": [
           {
             "result": {
-              "duration": 21115000000,
+              "duration": 799000000,
               "status": "passed"
             },
             "match": {
@@ -90,7 +90,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1173000000,
+              "duration": 1142000000,
               "status": "passed"
             },
             "line": 11,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 805000000,
+              "duration": 587000000,
               "status": "passed"
             },
             "line": 12,
@@ -114,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 93000000,
+              "duration": 184000000,
               "status": "passed"
             },
             "line": 13,
@@ -126,7 +126,7 @@
           },
           {
             "result": {
-              "duration": 2838000000,
+              "duration": 1546000000,
               "status": "passed"
             },
             "line": 14,
@@ -147,7 +147,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-08T19:30:56.460Z",
+        "start_timestamp": "2020-10-08T19:41:30.579Z",
         "line": 17,
         "name": "TC03 Kullanici Company Seller radio butonu tiklanabilmeli",
         "description": "",
@@ -155,7 +155,7 @@
         "after": [
           {
             "result": {
-              "duration": 457000000,
+              "duration": 491000000,
               "status": "passed"
             },
             "match": {
@@ -168,7 +168,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1147000000,
+              "duration": 1329000000,
               "status": "passed"
             },
             "line": 18,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 698000000,
+              "duration": 707000000,
               "status": "passed"
             },
             "line": 19,
@@ -192,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 34000000,
+              "duration": 52000000,
               "status": "passed"
             },
             "line": 20,
@@ -213,7 +213,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-08T19:30:58.818Z",
+        "start_timestamp": "2020-10-08T19:41:33.176Z",
         "line": 23,
         "name": "TC04 Categori listeleri birbiri ile ayni olmaldir",
         "description": "",
@@ -221,7 +221,7 @@
         "after": [
           {
             "result": {
-              "duration": 496000000,
+              "duration": 493000000,
               "status": "passed"
             },
             "match": {
@@ -234,7 +234,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1165000000,
+              "duration": 1195000000,
               "status": "passed"
             },
             "line": 24,
@@ -246,7 +246,7 @@
           },
           {
             "result": {
-              "duration": 694000000,
+              "duration": 1046000000,
               "status": "passed"
             },
             "line": 25,
@@ -258,7 +258,7 @@
           },
           {
             "result": {
-              "duration": 150000000,
+              "duration": 301000000,
               "status": "passed"
             },
             "line": 26,
@@ -270,7 +270,7 @@
           },
           {
             "result": {
-              "duration": 3445000000,
+              "duration": 2816000000,
               "status": "passed"
             },
             "line": 27,
