@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.195">
-<testcase classname="Company Seller Gecersiz email" name="TC_0005 kullanici  Company Seller olarak email texteboxinda gecersiz  email ile kayit olmamalidir." time="18.772">
-<system-out><![CDATA[Given kullanici "http://glbtrader.com/" sayfasindadir.......................passed
-And kullanici  Seller Join Now butonuna tiklar..............................passed
-And kullanici Company Seller sekmesine tiklar...............................passed
-And kullanici Gecerli Company  Name girer...................................passed
-And kullanici Gecerli Company  Mobile girer.................................passed
-And kullanici Gecerli  Company  Address girer...............................passed
-And kullanici Gecerli Name girer............................................passed
-And kullanici Hatali Email girer............................................passed
-And kullanici Gecerli Sub Domain girer......................................passed
-And kullanici Gecerli Mobile Number girer...................................passed
-And kullanici Gecerli Country dropdowndan secer.............................passed
-And kullanici Gecerli State girer...........................................passed
-And kullanici Gecerli City girer............................................passed
-And kullanici Gecerli Address girer.........................................passed
-And kullanici Gecerli Postal Code girer.....................................passed
-And kullanici Gecerli Categories dropdowndan secer..........................passed
-And kullanici Gecerli Password girer........................................passed
-And kullanici Registration butonuna tiklar..................................passed
-Then kullanici "Please Enter Valid Email Address." mesajini gormelidir......passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="41.324">
+<testcase classname="US 09 All Categories kontrolü" name="TC01 Kullanici Agent Seller radio butonu tiklanabilmeli" time="23.161">
+<system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
+And Kullanici Seller Join Now butonuna tiklar...............................passed
+Then Kullanici Agent Seller radio butonunun tiklanabildigini dogrular.......passed
+]]></system-out>
+</testcase>
+<testcase classname="US 09 All Categories kontrolü" name="TC02 Categori listeleri birbiri ile ayni olmaldir" time="7.797">
+<system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
+And Kullanici Seller Join Now butonuna tiklar...............................passed
+And Kullanici Agent Seller butonuna tiklar..................................passed
+Then Kullanici kayit formundaki Categori Listesi ila ana sayfadaki Categori Listesinin ayni oldugunu dogrular.passed
+]]></system-out>
+</testcase>
+<testcase classname="US 09 All Categories kontrolü" name="TC03 Kullanici Company Seller radio butonu tiklanabilmeli" time="2.865">
+<system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
+And Kullanici Seller Join Now butonuna tiklar...............................passed
+Then Kullanici Company Seller radio butonunun tiklanabildigini dogrular.....passed
+]]></system-out>
+</testcase>
+<testcase classname="US 09 All Categories kontrolü" name="TC04 Categori listeleri birbiri ile ayni olmaldir" time="7.108">
+<system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
+And Kullanici Seller Join Now butonuna tiklar...............................passed
+And Kullanici Agent Seller butonuna tiklar..................................passed
+Then Kullanici kayit formundaki Categori Listesi ila ana sayfadaki Categori Listesinin ayni oldugunu dogrular.passed
 ]]></system-out>
 </testcase>
 </testsuite>

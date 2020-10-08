@@ -1,17 +1,17 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-06T20:40:49.714Z",
-        "line": 3,
-        "name": "TC_0005 kullanici  Company Seller olarak email texteboxinda gecersiz  email ile kayit olmamalidir.",
+        "start_timestamp": "2020-10-08T19:48:39.439Z",
+        "line": 4,
+        "name": "TC01 Kullanici Agent Seller radio butonu tiklanabilmeli",
         "description": "",
-        "id": "company-seller-gecersiz-email;tc-0005-kullanici--company-seller-olarak-email-texteboxinda-gecersiz--email-ile-kayit-olmamalidir.",
+        "id": "us-09-all-categories-kontrolü;tc01-kullanici-agent-seller-radio-butonu-tiklanabilmeli",
         "after": [
           {
             "result": {
-              "duration": 720000000,
+              "duration": 612000000,
               "status": "passed"
             },
             "match": {
@@ -24,257 +24,287 @@
         "steps": [
           {
             "result": {
-              "duration": 11185000000,
+              "duration": 21150000000,
               "status": "passed"
             },
-            "line": 4,
-            "name": "kullanici \"http://glbtrader.com/\" sayfasindadir",
+            "line": 5,
+            "name": "Kullanici Global Trader sayfasina gider",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"http://glbtrader.com/\"",
-                  "offset": 10
-                }
-              ],
-              "location": "stepdefinitions.US_03_CompanySellerJoinStepDefinitions.kullanici_sayfasindadir(java.lang.String)"
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2858000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "kullanici  Seller Join Now butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.US_03_CompanySellerJoinStepDefinitions.kullanici_Seller_Join_Now_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1092000000,
+              "duration": 1173000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "kullanici Company Seller sekmesine tiklar",
+            "name": "Kullanici Seller Join Now butonuna tiklar",
             "match": {
-              "location": "stepdefinitions.US_03_CompanySellerJoinStepDefinitions.kullanici_Company_Seller_sekmesine_tiklar()"
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 347000000,
+              "duration": 56000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "kullanici Gecerli Company  Name girer",
+            "name": "Kullanici Agent Seller radio butonunun tiklanabildigini dogrular",
             "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_Company_Name_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 132000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "kullanici Gecerli Company  Mobile girer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_Company_Mobile_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 215000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "kullanici Gecerli  Company  Address girer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_Company_Address_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 133000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "kullanici Gecerli Name girer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_Name_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 159000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "kullanici Hatali Email girer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Hatali_Email_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 152000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "kullanici Gecerli Sub Domain girer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_Sub_Domain_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 141000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "kullanici Gecerli Mobile Number girer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_Mobile_Number_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 224000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "kullanici Gecerli Country dropdowndan secer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_Country_dropdowndan_secer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 153000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "kullanici Gecerli State girer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_State_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 125000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "kullanici Gecerli City girer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_City_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 239000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "kullanici Gecerli Address girer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_Address_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 138000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "kullanici Gecerli Postal Code girer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_Postal_Code_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 206000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "kullanici Gecerli Categories dropdowndan secer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_Categories_dropdowndan_secer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 176000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "kullanici Gecerli Password girer",
-            "match": {
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_Gecerli_Password_girer()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 119000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "kullanici Registration butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.US_03_CompanySellerJoinStepDefinitions.kullanici_Registration_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 88000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "kullanici \"Please Enter Valid Email Address.\" mesajini gormelidir",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Please Enter Valid Email Address.\"",
-                  "offset": 10
-                }
-              ],
-              "location": "stepdefinitions.US_05_StepDefinition.kullanici_mesajini_gormelidir(java.lang.String)"
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_radio_butonunun_tiklanabildigini_dogrular()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@CompanySellerGecersizEmail"
+            "name": "@US009"
+          },
+          {
+            "name": "@Test01"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-08T19:49:02.618Z",
+        "line": 10,
+        "name": "TC02 Categori listeleri birbiri ile ayni olmaldir",
+        "description": "",
+        "id": "us-09-all-categories-kontrolü;tc02-categori-listeleri-birbiri-ile-ayni-olmaldir",
+        "after": [
+          {
+            "result": {
+              "duration": 540000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2063000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Kullanici Global Trader sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1109000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Kullanici Seller Join Now butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Kullanici Agent Seller butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3772000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Kullanici kayit formundaki Categori Listesi ila ana sayfadaki Categori Listesinin ayni oldugunu dogrular",
+            "match": {
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_kayit_formundaki_Categori_Listesi_ila_ana_sayfadaki_Categori_Listesinin_ayni_oldugunu_dogrular()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US009"
+          },
+          {
+            "name": "@Test02"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-08T19:49:10.440Z",
+        "line": 17,
+        "name": "TC03 Kullanici Company Seller radio butonu tiklanabilmeli",
+        "description": "",
+        "id": "us-09-all-categories-kontrolü;tc03-kullanici-company-seller-radio-butonu-tiklanabilmeli",
+        "after": [
+          {
+            "result": {
+              "duration": 623000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1303000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Kullanici Global Trader sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 885000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Kullanici Seller Join Now butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Kullanici Company Seller radio butonunun tiklanabildigini dogrular",
+            "match": {
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Company_Seller_radio_butonunun_tiklanabildigini_dogrular()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US009"
+          },
+          {
+            "name": "@Test03"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-08T19:49:13.311Z",
+        "line": 23,
+        "name": "TC04 Categori listeleri birbiri ile ayni olmaldir",
+        "description": "",
+        "id": "us-09-all-categories-kontrolü;tc04-categori-listeleri-birbiri-ile-ayni-olmaldir",
+        "after": [
+          {
+            "result": {
+              "duration": 521000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1261000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Kullanici Global Trader sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 963000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Kullanici Seller Join Now butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Kullanici Agent Seller butonuna tiklar",
+            "match": {
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_butonuna_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4039000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Kullanici kayit formundaki Categori Listesi ila ana sayfadaki Categori Listesinin ayni oldugunu dogrular",
+            "match": {
+              "location": "stepdefinitions.US_09_StepDefinition.kullanici_kayit_formundaki_Categori_Listesi_ila_ana_sayfadaki_Categori_Listesinin_ayni_oldugunu_dogrular()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US009"
+          },
+          {
+            "name": "@Test04"
           }
         ]
       }
     ],
-    "name": "Company Seller Gecersiz email",
+    "name": "US 09 All Categories kontrolü",
     "description": "",
-    "id": "company-seller-gecersiz-email",
+    "id": "us-09-all-categories-kontrolü",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US_05.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/us_09.feature",
+    "tags": [
+      {
+        "name": "@US009",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
