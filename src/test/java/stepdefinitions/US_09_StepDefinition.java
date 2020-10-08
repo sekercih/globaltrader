@@ -5,15 +5,15 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import pages.Test_Page;
+import pages.US_09_Page;
 import utilities.Driver;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Test {
+public class US_09_StepDefinition {
 
-    Test_Page test_page = new Test_Page();
+    US_09_Page test_page = new US_09_Page();
     @Given("Kullanici Global Trader sayfasina gider")
     public void kullanici_Global_Trader_sayfasina_gider() {
 

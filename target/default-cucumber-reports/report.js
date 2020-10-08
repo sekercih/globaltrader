@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/test01.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/us_09.feature");
 formatter.feature({
   "name": "US 09 All Categories kontrolü",
   "description": "",
@@ -27,7 +27,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Global_Trader_sayfasina_gider()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
 });
 formatter.result({
   "status": "passed"
@@ -37,7 +37,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Seller_Join_Now_butonuna_tiklar()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
@@ -47,7 +47,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Agent_Seller_radio_butonunun_tiklanabildigini_dogrular()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_radio_butonunun_tiklanabildigini_dogrular()"
 });
 formatter.result({
   "status": "passed"
@@ -73,7 +73,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Global_Trader_sayfasina_gider()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
 });
 formatter.result({
   "status": "passed"
@@ -83,7 +83,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Seller_Join_Now_butonuna_tiklar()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
@@ -93,7 +93,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Agent_Seller_butonuna_tiklar()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_butonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
@@ -103,7 +103,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_kayit_formundaki_Categori_Listesi_ila_ana_sayfadaki_Categori_Listesinin_ayni_oldugunu_dogrular()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_kayit_formundaki_Categori_Listesi_ila_ana_sayfadaki_Categori_Listesinin_ayni_oldugunu_dogrular()"
 });
 formatter.result({
   "status": "passed"
@@ -129,7 +129,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Global_Trader_sayfasina_gider()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
 });
 formatter.result({
   "status": "passed"
@@ -139,7 +139,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Seller_Join_Now_butonuna_tiklar()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
@@ -149,7 +149,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Company_Seller_radio_butonunun_tiklanabildigini_dogrular()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Company_Seller_radio_butonunun_tiklanabildigini_dogrular()"
 });
 formatter.result({
   "status": "passed"
@@ -175,7 +175,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Global_Trader_sayfasina_gider()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
 });
 formatter.result({
   "status": "passed"
@@ -185,7 +185,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Seller_Join_Now_butonuna_tiklar()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
@@ -195,7 +195,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_Agent_Seller_butonuna_tiklar()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_butonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
@@ -205,7 +205,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.Test.kullanici_kayit_formundaki_Categori_Listesi_ila_ana_sayfadaki_Categori_Listesinin_ayni_oldugunu_dogrular()"
+  "location": "stepdefinitions.US_09_StepDefinition.kullanici_kayit_formundaki_Categori_Listesi_ila_ana_sayfadaki_Categori_Listesinin_ayni_oldugunu_dogrular()"
 });
 formatter.result({
   "status": "passed"
