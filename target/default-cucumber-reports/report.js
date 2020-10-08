@@ -1,53 +1,43 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/us_09.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/us_08.feature");
 formatter.feature({
-  "name": "US 09 All Categories kontrolü",
+  "name": "US_08 Test Cases",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@US009"
+      "name": "@US_08"
     }
   ]
 });
 formatter.scenario({
-  "name": "TC01 Kullanici Agent Seller radio butonu tiklanabilmeli",
+  "name": "TC_12 Glbtrader anasayfa ulasilabilir olmali",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@US009"
+      "name": "@US_08"
     },
     {
-      "name": "@Test01"
+      "name": "@TC_12"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici Global Trader sayfasina gider",
+  "name": "Kullanici glbtrader anasayfasina gider",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_gider()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Seller Join Now butonuna tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici Agent Seller radio butonunun tiklanabildigini dogrular",
+  "name": "Kullanici glbtrader anasayfasina ulasildigini dogrular",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_radio_butonunun_tiklanabildigini_dogrular()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_ulasildigini_dogrular()"
 });
 formatter.result({
   "status": "passed"
@@ -56,54 +46,44 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC02 Categori listeleri birbiri ile ayni olmaldir",
+  "name": "TC_13 emailbox ulasilabilir olmalidir",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@US009"
+      "name": "@US_08"
     },
     {
-      "name": "@Test02"
+      "name": "@TC_13"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici Global Trader sayfasina gider",
+  "name": "Kullanici glbtrader anasayfasina girder",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_girder()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Seller Join Now butonuna tiklar",
+  "name": "Kullanici Signin butonuna tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_Signin_butonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Agent Seller butonuna tiklar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_butonuna_tiklar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Kullanici kayit formundaki Categori Listesi ila ana sayfadaki Categori Listesinin ayni oldugunu dogrular",
+  "name": "Kullanici emailbox\u0027a ulasilabilir oldugunu dogrular",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_kayit_formundaki_Categori_Listesi_ila_ana_sayfadaki_Categori_Listesinin_ayni_oldugunu_dogrular()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_emailbox_a_ulasilabilir_oldugunu_dogrular()"
 });
 formatter.result({
   "status": "passed"
@@ -112,44 +92,44 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC03 Kullanici Company Seller radio butonu tiklanabilmeli",
+  "name": "TC_14 password box ulasilabilir olmalidir",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@US009"
+      "name": "@US_08"
     },
     {
-      "name": "@Test03"
+      "name": "@TC_14"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici Global Trader sayfasina gider",
+  "name": "Kullanici glbtrader anasayfasina gider",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_gider()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Seller Join Now butonuna tiklar",
+  "name": "Kullanici sign in butonuna tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_sign_in_butonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Company Seller radio butonunun tiklanabildigini dogrular",
+  "name": "Kullanici password box\u0027a ulasilabilir oldugunu dogrular",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Company_Seller_radio_butonunun_tiklanabildigini_dogrular()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_password_box_a_ulasilabilir_oldugunu_dogrular()"
 });
 formatter.result({
   "status": "passed"
@@ -158,54 +138,140 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC04 Categori listeleri birbiri ile ayni olmaldir",
+  "name": "TC_15 login butonu calisiyor olmalidir",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@US009"
+      "name": "@US_08"
     },
     {
-      "name": "@Test04"
+      "name": "@TC_15"
     }
   ]
 });
 formatter.step({
-  "name": "Kullanici Global Trader sayfasina gider",
+  "name": "Kullanici glbtrader anasayfasina gider",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Global_Trader_sayfasina_gider()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_gider()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Seller Join Now butonuna tiklar",
+  "name": "Kullanici sign in butonuna tiklar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Seller_Join_Now_butonuna_tiklar()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_sign_in_butonuna_tiklar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici Agent Seller butonuna tiklar",
+  "name": "Kullanici login sayfasina ulasir",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_Agent_Seller_butonuna_tiklar()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_login_sayfasina_ulasir()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Kullanici kayit formundaki Categori Listesi ila ana sayfadaki Categori Listesinin ayni oldugunu dogrular",
+  "name": "Kullanici mail girer",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_mail_girer()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici password girer",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_password_girer()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici login butonuna tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_login_butonuna_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici login butonun calistigini dogrular",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.US_09_StepDefinition.kullanici_kayit_formundaki_Categori_Listesi_ila_ana_sayfadaki_Categori_Listesinin_ayni_oldugunu_dogrular()"
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_login_butonun_calistigini_dogrular()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "TC_16 Forgot Form sayfasina ulsilabilir olmalidir",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@US_08"
+    },
+    {
+      "name": "@TC_16"
+    }
+  ]
+});
+formatter.step({
+  "name": "Kullanici glbtrader anasayfasina gider",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_glbtrader_anasayfasina_gider()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici sign in butonuna tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_sign_in_butonuna_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici Forgot Password buttonuna tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_Forgot_Password_buttonuna_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Kullanici Forgot Form sayfasina ulastigini dogrular",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinitions.US_08_StepDefinitions.kullanici_Forgot_Form_sayfasina_ulastigini_dogrular()"
 });
 formatter.result({
   "status": "passed"

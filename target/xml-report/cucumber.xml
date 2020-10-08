@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="41.324">
-<testcase classname="US 09 All Categories kontrolü" name="TC01 Kullanici Agent Seller radio butonu tiklanabilmeli" time="23.161">
-<system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
-And Kullanici Seller Join Now butonuna tiklar...............................passed
-Then Kullanici Agent Seller radio butonunun tiklanabildigini dogrular.......passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="23.522">
+<testcase classname="US_08 Test Cases" name="TC_12 Glbtrader anasayfa ulasilabilir olmali" time="11.826">
+<system-out><![CDATA[Given Kullanici glbtrader anasayfasina gider................................passed
+Then Kullanici glbtrader anasayfasina ulasildigini dogrular.................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US 09 All Categories kontrolü" name="TC02 Categori listeleri birbiri ile ayni olmaldir" time="7.797">
-<system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
-And Kullanici Seller Join Now butonuna tiklar...............................passed
-And Kullanici Agent Seller butonuna tiklar..................................passed
-Then Kullanici kayit formundaki Categori Listesi ila ana sayfadaki Categori Listesinin ayni oldugunu dogrular.passed
+<testcase classname="US_08 Test Cases" name="TC_13 emailbox ulasilabilir olmalidir" time="2.787">
+<system-out><![CDATA[Given Kullanici glbtrader anasayfasina girder...............................passed
+And Kullanici Signin butonuna tiklar........................................passed
+Then Kullanici emailbox'a ulasilabilir oldugunu dogrular....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US 09 All Categories kontrolü" name="TC03 Kullanici Company Seller radio butonu tiklanabilmeli" time="2.865">
-<system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
-And Kullanici Seller Join Now butonuna tiklar...............................passed
-Then Kullanici Company Seller radio butonunun tiklanabildigini dogrular.....passed
+<testcase classname="US_08 Test Cases" name="TC_14 password box ulasilabilir olmalidir" time="2.506">
+<system-out><![CDATA[Given Kullanici glbtrader anasayfasina gider................................passed
+And Kullanici sign in butonuna tiklar.......................................passed
+Then Kullanici password box'a ulasilabilir oldugunu dogrular................passed
 ]]></system-out>
 </testcase>
-<testcase classname="US 09 All Categories kontrolü" name="TC04 Categori listeleri birbiri ile ayni olmaldir" time="7.108">
-<system-out><![CDATA[Given Kullanici Global Trader sayfasina gider...............................passed
-And Kullanici Seller Join Now butonuna tiklar...............................passed
-And Kullanici Agent Seller butonuna tiklar..................................passed
-Then Kullanici kayit formundaki Categori Listesi ila ana sayfadaki Categori Listesinin ayni oldugunu dogrular.passed
+<testcase classname="US_08 Test Cases" name="TC_15 login butonu calisiyor olmalidir" time="3.091">
+<system-out><![CDATA[Given Kullanici glbtrader anasayfasina gider................................passed
+And Kullanici sign in butonuna tiklar.......................................passed
+And Kullanici login sayfasina ulasir........................................passed
+And Kullanici mail girer....................................................passed
+And Kullanici password girer................................................passed
+And Kullanici login butonuna tiklar.........................................passed
+Then Kullanici login butonun calistigini dogrular...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="US_08 Test Cases" name="TC_16 Forgot Form sayfasina ulsilabilir olmalidir" time="2.47">
+<system-out><![CDATA[Given Kullanici glbtrader anasayfasina gider................................passed
+And Kullanici sign in butonuna tiklar.......................................passed
+And Kullanici Forgot Password buttonuna tiklar..............................passed
+Then Kullanici Forgot Form sayfasina ulastigini dogrular....................passed
 ]]></system-out>
 </testcase>
 </testsuite>
