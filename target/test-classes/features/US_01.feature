@@ -1,4 +1,5 @@
-Feature: Seller and Company seller'i secebilme
+@smokeTest
+Feature: US_01 Seller and Company seller'i secebilme
   @agent_seller
   Scenario: TC_0001 Kullanici seller olarak Vendor Register Form'una ulasabilmeli ve Agent Seller veya Company Seller olarak secim yapabilmeli.
     Given Kullanici glbTrader ana sayfasindadir

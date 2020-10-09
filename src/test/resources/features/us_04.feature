@@ -1,5 +1,5 @@
-@mailKontrol
-Feature: scenario outline example mail
+@mailKontrol @smokeTest
+Feature: US_04 scenario outline example mail
   Scenario Outline:mailkutusu testi
     Given https://www.glbtrader.com adresine gidilir
     And Seller Join Now linki tıklanır

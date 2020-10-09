@@ -1,4 +1,5 @@
-Feature: Company Seller Gecersiz email
+@smokeTest
+Feature:US_05 Company Seller Gecersiz email
   @CompanySellerGecersizEmail
   Scenario: TC_0005 kullanici  Company Seller olarak email texteboxinda gecersiz  email ile kayit olmamalidir.
     Given kullanici "http://glbtrader.com/" sayfasindadir

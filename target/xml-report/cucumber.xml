@@ -1,37 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="23.522">
-<testcase classname="US_08 Test Cases" name="TC_12 Glbtrader anasayfa ulasilabilir olmali" time="11.826">
-<system-out><![CDATA[Given Kullanici glbtrader anasayfasina gider................................passed
-Then Kullanici glbtrader anasayfasina ulasildigini dogrular.................passed
-]]></system-out>
-</testcase>
-<testcase classname="US_08 Test Cases" name="TC_13 emailbox ulasilabilir olmalidir" time="2.787">
-<system-out><![CDATA[Given Kullanici glbtrader anasayfasina girder...............................passed
-And Kullanici Signin butonuna tiklar........................................passed
-Then Kullanici emailbox'a ulasilabilir oldugunu dogrular....................passed
-]]></system-out>
-</testcase>
-<testcase classname="US_08 Test Cases" name="TC_14 password box ulasilabilir olmalidir" time="2.506">
-<system-out><![CDATA[Given Kullanici glbtrader anasayfasina gider................................passed
-And Kullanici sign in butonuna tiklar.......................................passed
-Then Kullanici password box'a ulasilabilir oldugunu dogrular................passed
-]]></system-out>
-</testcase>
-<testcase classname="US_08 Test Cases" name="TC_15 login butonu calisiyor olmalidir" time="3.091">
-<system-out><![CDATA[Given Kullanici glbtrader anasayfasina gider................................passed
-And Kullanici sign in butonuna tiklar.......................................passed
-And Kullanici login sayfasina ulasir........................................passed
-And Kullanici mail girer....................................................passed
-And Kullanici password girer................................................passed
-And Kullanici login butonuna tiklar.........................................passed
-Then Kullanici login butonun calistigini dogrular...........................passed
-]]></system-out>
-</testcase>
-<testcase classname="US_08 Test Cases" name="TC_16 Forgot Form sayfasina ulsilabilir olmalidir" time="2.47">
-<system-out><![CDATA[Given Kullanici glbtrader anasayfasina gider................................passed
-And Kullanici sign in butonuna tiklar.......................................passed
-And Kullanici Forgot Password buttonuna tiklar..............................passed
-Then Kullanici Forgot Form sayfasina ulastigini dogrular....................passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="33.057">
+<testcase classname="US_03_CompanySeller" name="TC_0003 kullanici gecerli verilerle Company Seller hesabi olusturur" time="32.405">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[@class = 'text-center'][2]&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'XYZ-MacBook-Pro.fritz.box', ip: 'fd00:0:0:0:40a:744e:8f8b:1e84%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/y7/wc9187xn7pj...}, goog:chromeOptions: {debuggerAddress: localhost:51749}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ba90732aa2cfba561e85197d18c7a358&#10;*** Element info: {Using=xpath, value=//p[@class = 'text-center'][2]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given kullanici "http://glbtrader.com/" sayfasindadir.......................passed
+And kullanici  Seller Join Now butonuna tiklar..............................passed
+And kullanici Company Seller sekmesine tiklar...............................passed
+And kullanici Company Name girer............................................passed
+And kullanici Company Mobile girer..........................................passed
+And kullanici Company Address girer.........................................passed
+And kullanici Name girer....................................................passed
+And kullanici Email girer...................................................passed
+And kullanici Sub Domain girer..............................................passed
+And kullanici Mobile Number girer...........................................passed
+And kullanici Country dropdowndan secer.....................................passed
+And kullanici State girer...................................................passed
+And kullanici City girer....................................................passed
+And kullanici Address girer.................................................passed
+And kullanici Postal Code girer.............................................passed
+And kullanici Categories dropdowndan secer..................................passed
+And kullanici Password girer................................................passed
+And kullanici Registration butonuna tiklar..................................passed
+Then kullanici "Thank you to join our team. You are Registered Successfully." masajini gormelidir.failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class = 'text-center'][2]"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'XYZ-MacBook-Pro.fritz.box', ip: 'fd00:0:0:0:40a:744e:8f8b:1e84%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/y7/wc9187xn7pj...}, goog:chromeOptions: {debuggerAddress: localhost:51749}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ba90732aa2cfba561e85197d18c7a358
+*** Element info: {Using=xpath, value=//p[@class = 'text-center'][2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getText(Unknown Source)
+	at stepdefinitions.US_03_CompanySellerJoinStepDefinitions.kullanici_masajini_gormelidir(US_03_CompanySellerJoinStepDefinitions.java:95)
+	at ✽.kullanici "Thank you to join our team. You are Registered Successfully." masajini gormelidir(file:///Users/Abc/IdeaProjects/globaltrader/src/test/resources/features/US_03_company_seller_join_now.feature:22)
+]]></failure>
 </testcase>
 </testsuite>

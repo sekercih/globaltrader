@@ -1,6 +1,5 @@
-@Company_seller_join
+@Company_seller_join @smokeTest
 Feature: US_03_CompanySeller
-
   Scenario: TC_0003 kullanici gecerli verilerle Company Seller hesabi olusturur
     Given kullanici "http://glbtrader.com/" sayfasindadir
     And kullanici  Seller Join Now butonuna tiklar
