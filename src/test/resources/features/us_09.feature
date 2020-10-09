@@ -1,5 +1,5 @@
-@US009
-Feature: US 09 All Categories kontrolü
+@US009 @smokeTest
+Feature: US_09 All Categories kontrolü
   @Test01
   Scenario: TC01 Kullanici Agent Seller radio butonu tiklanabilmeli
     Given Kullanici Global Trader sayfasina gider

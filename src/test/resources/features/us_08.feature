@@ -1,4 +1,4 @@
-@US_08
+@US_08 @smokeTest
 Feature: US_08 Test Cases
   @TC_12
   Scenario: TC_12 Glbtrader anasayfa ulasilabilir olmali
